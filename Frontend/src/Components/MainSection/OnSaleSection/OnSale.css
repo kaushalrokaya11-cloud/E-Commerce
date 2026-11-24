@@ -1,0 +1,58 @@
+.main-section .on-sale{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 247, 247);
+    align-items: stretch;
+    
+   
+   
+}
+.main-section .on-sale .title{
+
+    background: none;
+    font-size:20px;
+    color:orange;
+    flex-grow: 1 1 auto;
+}
+.main-section .on-sale .title hr{
+    margin :0px 0px 10px;
+    opacity: 0.3;
+    border:none;
+    border:1px solid rgb(104, 99, 99);
+    align-self: stretch;
+}
+.main-section .on-sale .title p{
+    margin:10px 0px 10px 10px;
+    background:none;
+    font-weight: bold;
+
+}
+.main-section .listing{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow-x: scroll;
+    flex-grow:1
+}
+.carousel{
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+.carousel .navigation{
+    height:30px;
+    width:30px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border:1px solid black;
+    color:white;
+    background-color: black;
+    font-size:23px;
+    padding-bottom: 40px;
+}
+
+
+

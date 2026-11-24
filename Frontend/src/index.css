@@ -1,0 +1,11 @@
+:root {/*This actually targets html element of DOM not div with id = root*/
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  
+}
+
+body{
+    margin:0;
+    
+}
