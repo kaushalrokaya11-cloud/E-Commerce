@@ -19,13 +19,11 @@ const productSchema = new mongoose.Schema({
         type:Number,
         required:true
     },
-    image:{
-        url:{
+    imageUrl:{
+       
             type:String,
-        },
-        publicId:{
-            type:String
-        }  
+            required:true
+       
     },
     description:{
         type:String
@@ -34,5 +32,7 @@ const productSchema = new mongoose.Schema({
 }
 
 )
-const Product = mongoose.model("Product",productSchema);
-export default Product;
+const PopularProducts = mongoose.model("popular-products",productSchema,"popular-products")
+const ProductsOnSale = mongoose.model("products-onsale",productSchema,"products-onsale");
+
+export {ProductsOnSale,PopularProducts};
